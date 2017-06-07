@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Kullanıcı Adı ve Email">
+        <EditTextPreference
+            android:defaultValue="kullanıcı no1"
+            android:dialogTitle="Kullanıcı adını giriniz: "
+            android:key="username"
+            android:summary="Görülmesini istediğiniz kullanıcı adınız: %s"
+            android:title="Kullanıcı Adı" />
+        <EditTextPreference
+            android:defaultValue="eposta@eposta.com"
+            android:key="mail"
+            android:summary="Email adresiniz: %s"
+            android:title="Email Yapılandırması" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ses">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="soundOn"
+            android:summary="Sesi açın veya kapatın"
+            android:title="Ses etkin" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Araba Özellikleri">
+        <ListPreference
+            android:defaultValue="true"
+            android:entries="@array/araba_cesit"
+            android:entryValues="@array/araba_cesit_types"
+            android:key="models"
+            android:summary="Araba modelinizi buradan belirleyebilirsiniz: \nŞuanki araba: %s"
+            android:title="Araba Modeli" />
+        <ListPreference
+            android:defaultValue="true"
+            android:entries="@array/oyun_zorluk"
+            android:entryValues="@array/oyun_zorluk_types"
+            android:key="level"
+            android:summary="Oyunun zorluk derecesini buradan ayarlayabilirsiniz. \nŞuanki zorluk: %s"
+            android:title="Oyun Seviyesi" />
+    </PreferenceCategory>
+</PreferenceScreen>

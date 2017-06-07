@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string-array name="araba_cesit">
+        <item>Mercedes Benz</item>
+        <item>Aston Martin</item>
+        <item>BMW</item>
+        <item>Subaru</item>
+        <item>Honda</item>
+    </string-array>
+    <string-array name="araba_cesit_types">
+        <item>mercedes_benz</item>
+        <item>aston_martin</item>
+        <item>bmw</item>
+        <item>subaru</item>
+        <item>honda</item>
+    </string-array>
+    <string-array name="oyun_zorluk">
+        <item>Kolay</item>
+        <item>Orta</item>
+        <item>Zor</item>
+    </string-array>
+    <string-array name="oyun_zorluk_types">
+        <item>kolay</item>
+        <item>orta</item>
+        <item>zor</item>
+    </string-array>
+</resources>
